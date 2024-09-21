@@ -72,6 +72,7 @@
                     'revision_translation_affected' => 1,
                 ])->execute();
             }
+            
 
             //node_body (body)
             foreach($jsonMovie as $movie){
