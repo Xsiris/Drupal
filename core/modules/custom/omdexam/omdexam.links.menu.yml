@@ -1,0 +1,6 @@
+entity.omdexam.admin:
+  title: 'Import ADADADGAGS'
+  route_name: omdexam.admin_settings
+  description: 'Import ADADADGAGS'
+  parent: system.admin_config_system
+  weight: 100

@@ -10,7 +10,7 @@ field_name: field_movie_release_date
 entity_type: node
 type: string
 settings:
-  max_length: 10
+  max_length: 30
 module: core
 locked: false
 cardinality: 1

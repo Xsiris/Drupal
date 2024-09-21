@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
   - field.field.node.moviepost.field_movie_release_date
+  - field.field.node.moviepost.body
   - node.type.moviepost
 id: node.moviepost.default
 targetEntityType: node
@@ -10,6 +11,19 @@ bundle: moviepost
 mode: default
 content:
   field_movie_release_date:
+    type: string_textfield
+    weight: 100
+    settings:
+      size: 30
+      placeholder: 'example'
+    third_party_settings: {  }
+  body:
+    label: hidden
+    type: text_textarea_with_summary
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_movie_director:
     type: string_textfield
     weight: 100
     settings:
