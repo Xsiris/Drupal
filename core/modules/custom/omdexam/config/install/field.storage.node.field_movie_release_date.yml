@@ -1,0 +1,16 @@
+langcode: en
+dependencies:
+  enforced:
+    module:
+    - omdexam
+  module:
+  - node
+id: node.field_movie_release_date
+field_name: field_movie_release_date
+entity_type: node
+type: string
+settings:
+  max_length: 10
+module: core
+locked: false
+cardinality: 1

@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+  - field.field.node.moviepost.field_movie_release_date
+  - node.type.moviepost
+id: node.moviepost.default
+targetEntityType: node
+bundle: moviepost
+mode: default
+content:
+  field_movie_release_date:
+    type: string_textfield
+    weight: 100
+    settings:
+      size: 30
+      placeholder: 'example'
+    third_party_settings: {  }
+hidden: { }

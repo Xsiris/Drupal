@@ -1,0 +1,11 @@
+langcode: en
+dependencies:
+  enforced:
+    module:
+    - omdexam
+name: 'Movie post'
+type: moviepost
+description: 'Movie post'
+help: 'Movie post'
+new_revision: false
+preview_mode: 2

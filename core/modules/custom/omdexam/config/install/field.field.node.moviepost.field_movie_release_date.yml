@@ -1,0 +1,15 @@
+langcode: en
+dependencies:
+  config:
+  - field.storage.node.field_movie_release_date
+  - node.type.moviepost
+id: node.moviepost.field_movie_release_date
+field_name: field_movie_release_date
+entity_type: node
+bundle: moviepost
+label: 'Movie Post ID'
+description: 'Release Date'
+required: false
+default_value: 'example'
+settings: { }
+field_type: string

@@ -1,0 +1,13 @@
+name: Old Moon Exam Theme
+type: theme
+description: "Theme for Old Moon Digital's exam"
+core_version_requirement: ^11
+base theme: stable9
+screenshot: omd.png
+regions:
+  header: Header
+  simplesmartmenu: Navigation
+  content: Content
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom
