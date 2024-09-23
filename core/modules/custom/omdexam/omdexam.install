@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the rsvplist module
+ */
+
+ /**
+ * Implements hook_schema().
+ */
+ function omdexam_schema(){
+    //Create a database table called 'rsvplist' with the following columns:
+    //1) [serial], 2) uid 3) nid[int] 4) mail [varchar], 5) created [int]
+    $schema['omdexam_last_import'] = [
+        'description' => 'stores last imported movie(s) title and import timestamp',
+        'fields' => [
+            'movie_uid' => [
+                'description' => 'Movie Unique Identifier',
+                'type' => 'int',
+                'size' => 'normal', // tiny, small, meidum, normal, big
+                'unsigned' => TRUE,
+                'not null' => TRUE,
+            ],
+            'title' => [
+                'description' => 'The title of the movie',
+                'type' => 'varchar',
+                'length' => 64,
+                'not null' => FALSE,
+                'default' => '',
+            ],
+            'import_time' => [
+                'description' => 'Time stamp of movie data import',
+                'type' => 'varchar',
+                'length' => 64,
+                'not null' => FALSE,
+                'default' => '',
+            ],
+        ],
+        'primary key' => ['movie_uid'],
+    ];
+    return $schema;
+ }
+
+ /**
+ * Implements hook_uninstall().
+ */
+/*function omdexam_uninstall() {
+    $query = \Drupal::database()->delete('table');
+    $query->execute();
+}*/
+

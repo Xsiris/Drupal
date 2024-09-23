@@ -1,0 +1,16 @@
+{
+  "name": "oldmoonexam",
+  "version": "1.0.0",
+  "description": "Old Moon Digital exam porject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind-build" : "tailwindcss -i ./src/input.css -o ./src/output.css",
+    "tailwind-build-watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.12"
+  }
+}

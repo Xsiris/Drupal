@@ -2,6 +2,6 @@ omdexam.admin_settings:
   path: '/admin/config/omdexam/import'
   defaults:
     _form: '\Drupal\omdexam\Form\MovieListingSettingsForm'
-    _title: 'Import ADADADGAGS'
+    _title: 'Import'
   requirements:
-    _permission: 'administer site configuration'
+    _permission: 'administer imports'

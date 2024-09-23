@@ -1,6 +1,6 @@
 entity.omdexam.admin:
-  title: 'Import ADADADGAGS'
+  title: 'OMDexam Manual Import'
   route_name: omdexam.admin_settings
-  description: 'Import ADADADGAGS'
-  parent: system.admin_config_system
+  description: 'Import from json feed manually'
+  parent: system.admin_config
   weight: 100

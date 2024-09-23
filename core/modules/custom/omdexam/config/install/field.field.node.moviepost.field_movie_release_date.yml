@@ -7,8 +7,8 @@ id: node.moviepost.field_movie_release_date
 field_name: field_movie_release_date
 entity_type: node
 bundle: moviepost
-label: 'Movie Release Date'
-description: 'Release Date'
+label: 'Movie release date'
+description: 'Release date'
 required: false
 default_value: ''
 settings: { }

@@ -4,9 +4,12 @@ description: "Theme for Old Moon Digital's exam"
 core_version_requirement: ^11
 base theme: stable9
 screenshot: omd.png
+libraries:
+  - oldmoonexam/tailwind
+  - oldmoonexam/cdnfonts
 regions:
   header: Header
-  simplesmartmenu: Navigation
+  menu: Navigation
   content: Content
   footer: Footer
   page_top: Page top

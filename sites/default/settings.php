@@ -286,7 +286,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'VgtdVZRAEXVnd00NKiA4yJLaVdvpEBhR1v44JC07N-C3xydV9CtqGJNIRoICGRtdPeVGXcDagQ';
+$settings['hash_salt'] = 'VJ3fHVbS0WQL0PRQwPCEF0k5z1-sX7dFjyXiUC5KUmu1ADNnmwBKFZ8QZL0M0xiB4EL3Fk5zng';
 
 /**
  * Deployment identifier.
@@ -883,8 +883,4 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_5DlC1WxlOWght9HK0azYSZF0sg4Le53Yf90NzXLW8guESFysjqj43fmVlJI6CefQKs0hb8a-uQ/sync';
-
-error_reporting(E_ALL);
-ini_set('display_errors', TRUE);
-ini_set('display_startup_errors', TRUE);
+$settings['config_sync_directory'] = 'sites/default/files/config_lv4BDEzHp6z7WvwjKFtZyy1oabq1-VgkpvgaW4dvlVf7RQQ4HhQS3aFqgWBGNuruq7B8vc5QxQ/sync';

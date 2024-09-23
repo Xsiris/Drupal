@@ -1,0 +1,4 @@
+administer imports:
+  title: 'Administer import page'
+  description: 'Access to the import page'
+  restrict access: true
